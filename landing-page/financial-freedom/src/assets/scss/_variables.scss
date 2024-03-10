@@ -1,0 +1,15 @@
+
+// Variabili globali
+$font-family-base: 'Inter', sans-serif; // Cambia con il font del tuo brand
+$color-primary: #3F83F8; // Cambia con il colore primario del tuo brand
+$color-secondary: #111928; // Cambia con il colore secondario del tuo brand
+$color-third: #ffffff; // Cambia con il colore terziario del tuo brand
+$color-success: #28a745; // Per messaggi di successo, link attivi, ecc.
+$color-error: #dc3545; // Per messaggi di errore, avvisi, ecc.
+
+// Variabili per le media query
+$breakpoint-xs: 0;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
