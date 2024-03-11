@@ -4,6 +4,7 @@ import TrustedBy from './components/TrustedBy';
 import Features from './components/Features';
 import GetStarted from './components/GetStarted';
 import ClientReviews from './components/ClientReviews';
+import Footer from './components/Footer';
 import './App.scss';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Features/>
       <GetStarted />
       <ClientReviews />
+      <Footer />
     </div>
   );
 }

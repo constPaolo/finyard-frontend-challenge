@@ -124,7 +124,7 @@ const HeroSection = () => {
         <div className="slide-background" style={{ backgroundImage: `url(${slide.img})` }}>
             <div className="slide-content container">
                 <div className="header-hero">
-                    <img src={Logo} alt="PrimeXBT Logo" />
+                    <img src={Logo} alt="PrimeXBT Logo" className="logo" />
                     <a href="/login" className="btn-secondary">Login</a>
                 </div>
                 <strong>
@@ -149,7 +149,7 @@ const HeroSection = () => {
                 effect="fade"
                 loop={true}
                 autoplay={{
-                    delay: 150000,
+                    delay: 1500,
                     disableOnInteraction: false // Continue autoplay when the swiper is interacted with
                 }}
                 speed={1000}
