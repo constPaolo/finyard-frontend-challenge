@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/finyard-frontend-challenge/static/css/main.d16552b3.css",
-    "main.js": "/finyard-frontend-challenge/static/js/main.3a2d13c8.js",
+    "main.css": "/finyard-frontend-challenge/static/css/main.7142c90a.css",
+    "main.js": "/finyard-frontend-challenge/static/js/main.e47adb77.js",
     "static/media/Overlay1.png": "/finyard-frontend-challenge/static/media/Overlay1.5a59b8f350d2d758a6b6.png",
     "static/media/Hero4.webp": "/finyard-frontend-challenge/static/media/Hero4.6dc4af04ef51ebd78383.webp",
     "static/media/Hero2.webp": "/finyard-frontend-challenge/static/media/Hero2.e0f007146ab07cc65f98.webp",
@@ -26,11 +26,11 @@
     "static/media/features-1.svg": "/finyard-frontend-challenge/static/media/features-1.85b94a32ddbbe58b4e8ac3aa31590f5c.svg",
     "static/media/star-empty.svg": "/finyard-frontend-challenge/static/media/star-empty.c961d710e6df24230e23e844b9ff8b31.svg",
     "static/media/star-filled.svg": "/finyard-frontend-challenge/static/media/star-filled.757e753967a1c63d4cec3f1321900168.svg",
-    "main.d16552b3.css.map": "/finyard-frontend-challenge/static/css/main.d16552b3.css.map",
-    "main.3a2d13c8.js.map": "/finyard-frontend-challenge/static/js/main.3a2d13c8.js.map"
+    "main.7142c90a.css.map": "/finyard-frontend-challenge/static/css/main.7142c90a.css.map",
+    "main.e47adb77.js.map": "/finyard-frontend-challenge/static/js/main.e47adb77.js.map"
   },
   "entrypoints": [
-    "static/css/main.d16552b3.css",
-    "static/js/main.3a2d13c8.js"
+    "static/css/main.7142c90a.css",
+    "static/js/main.e47adb77.js"
   ]
 }
