@@ -151,7 +151,7 @@ const HeroSection = () => {
                 effect="fade"
                 loop={true}
                 autoplay={{
-                    delay: 150000,
+                    delay: 1500,
                     disableOnInteraction: false // Continue autoplay when the swiper is interacted with
                 }}
                 speed={1000}
