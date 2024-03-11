@@ -77,7 +77,7 @@ const HeroSection = () => {
                 PrimeXBT! <b>Invest in Crypto and trade 100+ global markets</b> on
                 our easy-to-use app and webtrader.`,
             testoBtn: 'Invest Now',
-            link: '/scopri-di-piu',
+            link: 'https://www.xbprime.com/',
             subText: 'Capital is at risk. '
         },
         {
@@ -90,6 +90,7 @@ const HeroSection = () => {
                 PrimeXBT! <b>Invest in Crypto and trade 100+ global markets</b> on
                 our easy-to-use app and webtrader.`,
             testoBtn: 'Invest Now',
+            link: 'https://www.xbprime.com/',
             subText: 'Capital is at risk. '
         },
         {
@@ -103,7 +104,7 @@ const HeroSection = () => {
                 PrimeXBT! <b>Invest in Crypto and trade 100+ global markets</b> on
                 our easy-to-use app and webtrader.`,
             testoBtn: 'Invest Now',
-            link: '/scopri-di-piu',
+            link: 'https://www.xbprime.com/',
             subText: 'Capital is at risk. '
         },
         {
@@ -116,6 +117,7 @@ const HeroSection = () => {
                 PrimeXBT! <b>Invest in Crypto and trade 100+ global markets</b> on
                 our easy-to-use app and webtrader.`,
             testoBtn: 'Invest Now',
+            link: 'https://www.xbprime.com/',
             subText: 'Capital is at risk. '
         },
     ];
@@ -123,9 +125,9 @@ const HeroSection = () => {
     const SlideContent = React.memo(({ slide }) => (
         <div className="slide-background" style={{ backgroundImage: `url(${slide.img})` }}>
             <div className="slide-content container">
-                <div className="header-hero">
+                <div className="header-hero container">
                     <img src={Logo} alt="PrimeXBT Logo" className="logo" />
-                    <a href="/login" className="btn-secondary">Login</a>
+                    <a href="https://portal.xbprime.com/login" className="btn-secondary">Login</a>
                 </div>
                 <strong>
                     <h2 dangerouslySetInnerHTML={{ __html: slide.titolo }}></h2>
@@ -149,7 +151,7 @@ const HeroSection = () => {
                 effect="fade"
                 loop={true}
                 autoplay={{
-                    delay: 1500,
+                    delay: 150000,
                     disableOnInteraction: false // Continue autoplay when the swiper is interacted with
                 }}
                 speed={1000}

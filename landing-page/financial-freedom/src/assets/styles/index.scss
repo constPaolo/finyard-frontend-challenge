@@ -97,7 +97,7 @@ body {
           height: fit-content;
           display: flex;
           justify-content: space-between;
-          width: 100%;
+          width: -webkit-fill-available;
           position: absolute;
           top: 52px;
           
