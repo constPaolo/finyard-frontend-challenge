@@ -1,76 +1,56 @@
-@import './assets/scss/_variables';
+@import './assets/styles/_variables';
 
-// Regole base per il body
 body {
   margin: 0;
   padding: 0;
   font-family: $font-family-base;
   color: $color-secondary;
-  background-color: #fff; // Sfondo chiaro per contrasto; cambialo a seconda delle tue esigenze
-  line-height: 1.6; // Spaziatura verticale per una migliore leggibilità
+  background-color: #fff;
+  line-height: 1.6;
 }
 
-// Impostazioni di base per i link
 a {
   color: $color-primary;
-  text-decoration: none; // Rimuove il sottolineamento di default
+  text-decoration: none;
 
   &:hover {
-    text-decoration: none; // Aggiunge un sottolineamento al passaggio del mouse per indicare la possibilità di cliccare
+    text-decoration: none;
   }
 }
 
-// Impostazioni per i container e la griglia se necessario
 .container {
-  max-width: 1200px; // Imposta una larghezza massima per il contenuto centrale
-  margin: 0 auto; // Centra il contenuto nella pagina
-  padding: 0 15px; // Aggiunge un po' di spazio ai lati
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 0 15px;
 
   @media (max-width: $breakpoint-md) {
-    max-width: 100%; // Larghezza massima per dispositivi più piccoli
+    max-width: 100%;
   }
 }
 
-// Regole per gli header
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-weight: 500; // Peso del carattere meno pesante per un design più moderno
+  font-weight: 500;
   line-height: 1.2;
 }
 
-// Regole per i paragrafi
 p {
   margin-top: 0;
-  margin-bottom: 1rem; // Spazio aggiuntivo sotto i paragrafi per separarli dal contenuto seguente
+  margin-bottom: 0;
 }
 
-// Utility classes (esempio)
 .text-center {
   text-align: center;
 }
 
 .text-right {
   text-align: right;
-}
-
-// Mobile First Media Queries
-@media (min-width: 576px) {
-  // Regole specifiche per tablet, desktop, ecc.
-}
-
-// Esempio di utilizzo di mixin per i media query
-@mixin for-desktop {
-  @media (min-width: 992px) { @content; }
-}
-
-// Uso del mixin
-.box {
-  width: 100%;
-
-  @include for-desktop {
-    width: 50%; // Larghezza della box su schermi desktop
-  }
 }
 
 .primary-color {
@@ -89,9 +69,23 @@ p {
 
   font-size: 16px;
   font-weight: 500;
-  line-height: 150%; /* 24px */
+  line-height: 150%;
 
   &:hover {
     background-color: darken($color-primary, 10%);
   }
+}
+
+.btn-secondary{
+  color: var(--blue-200, #C3DDFD);
+
+/* Button/XS */
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 16px; /* 133.333% */
+border-radius: 6px;
+border: 1.5px solid var(--blue-200, #C3DDFD);
+padding: 8px 16px;
+gap: 8px;
 }

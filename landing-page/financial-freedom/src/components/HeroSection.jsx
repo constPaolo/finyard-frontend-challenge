@@ -2,8 +2,6 @@ import React from 'react';
 import { useState, useEffect, useCallback } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, EffectFade } from 'swiper/modules';
-// importa il css del componente hero
-import './HeroSection.scss';
 
 // Import Swiper styles for core and required modules
 import 'swiper/css';
@@ -12,16 +10,16 @@ import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 
 // Import image files
-import HeroImage1 from '../assets/slider/Hero1.webp';
-import HeroImage2 from '../assets/slider/Hero2.webp';
-import HeroImage3 from '../assets/slider/Hero3.webp';
-import HeroImage4 from '../assets/slider/Hero4.webp';
-import HeroImageMobile1 from '../assets/slider/Hero1-mobile.webp';
-import HeroImageMobile2 from '../assets/slider/Hero2-mobile.webp';
-import HeroImageMobile3 from '../assets/slider/Hero3-mobile.webp';
-import HeroImageMobile4 from '../assets/slider/Hero4-mobile.webp';
+import HeroImage1 from '../assets/images/slider/Hero1.webp';
+import HeroImage2 from '../assets/images/slider/Hero2.webp';
+import HeroImage3 from '../assets/images/slider/Hero3.webp';
+import HeroImage4 from '../assets/images/slider/Hero4.webp';
+import HeroImageMobile1 from '../assets/images/slider/Hero1-mobile.webp';
+import HeroImageMobile2 from '../assets/images/slider/Hero2-mobile.webp';
+import HeroImageMobile3 from '../assets/images/slider/Hero3-mobile.webp';
+import HeroImageMobile4 from '../assets/images/slider/Hero4-mobile.webp';
 import Logo from '../assets/Logo.svg';
-import  HeroOverlay from '../assets/slider/Overlay1.png';
+import HeroOverlay from '../assets/images/slider/Overlay1.png';
 
 
 const HeroSection = () => {
@@ -125,15 +123,16 @@ const HeroSection = () => {
     const SlideContent = React.memo(({ slide }) => (
         <div className="slide-background" style={{ backgroundImage: `url(${slide.img})` }}>
             <div className="slide-content container">
-                {isMobile && <div className="mobile-overlay">
+                <div className="header-hero">
                     <img src={Logo} alt="PrimeXBT Logo" />
-                </div>}
+                    <a href="/login" className="btn-secondary">Login</a>
+                </div>
                 <strong>
                     <h2 dangerouslySetInnerHTML={{ __html: slide.titolo }}></h2>
                 </strong>
                 <p dangerouslySetInnerHTML={{ __html: slide.testo }}></p>
                 <a href={slide.link} className="btn-primary">{slide.testoBtn}</a>
-                <div className="subtext">{slide.subText}</div>
+                <small className="subtext">{slide.subText}</small>
             </div>
         </div>
     ));
