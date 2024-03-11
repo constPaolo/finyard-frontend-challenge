@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/financial-freedom/static/css/main.d16552b3.css",
+    "main.js": "/financial-freedom/static/js/main.3d6c8c44.js",
+    "static/media/Overlay1.png": "/financial-freedom/static/media/Overlay1.5a59b8f350d2d758a6b6.png",
+    "static/media/Hero4.webp": "/financial-freedom/static/media/Hero4.6dc4af04ef51ebd78383.webp",
+    "static/media/Hero2.webp": "/financial-freedom/static/media/Hero2.e0f007146ab07cc65f98.webp",
+    "static/media/Hero1.webp": "/financial-freedom/static/media/Hero1.9b7a34410b30c3e2c069.webp",
+    "static/media/Hero3.webp": "/financial-freedom/static/media/Hero3.0c95acb91651b12ef1ef.webp",
+    "static/media/Hero1-mobile.webp": "/financial-freedom/static/media/Hero1-mobile.da6e1dc1f13bcfd5b3ba.webp",
+    "static/media/Hero4-mobile.webp": "/financial-freedom/static/media/Hero4-mobile.a2b30fef4655c8fa3574.webp",
+    "static/media/Hero2-mobile.webp": "/financial-freedom/static/media/Hero2-mobile.82ac3338934030cba7c0.webp",
+    "static/media/Hero3-mobile.webp": "/financial-freedom/static/media/Hero3-mobile.c3d37f0ca00af1e871bc.webp",
+    "static/media/background.jpg": "/financial-freedom/static/media/background.5efff6a5f82e7cac2319.jpg",
+    "static/media/Logo.svg": "/financial-freedom/static/media/Logo.0b22be1fb30787d2093bcbfd8ae88715.svg",
+    "static/media/logo_section-2.svg": "/financial-freedom/static/media/logo_section-2.b3cd77e330763bbcc0e5730ef2336aab.svg",
+    "static/media/logo_section-1.svg": "/financial-freedom/static/media/logo_section-1.a8f4bd07726e053e0247752818967382.svg",
+    "static/media/logo_section.svg": "/financial-freedom/static/media/logo_section.318ce7b054a18f7b799d5b33f2aeb566.svg",
+    "static/media/features-6.svg": "/financial-freedom/static/media/features-6.031cb4d82a9536ee6fef024fd6e0fea5.svg",
+    "static/media/features-5.svg": "/financial-freedom/static/media/features-5.dfbc91f79adfcf6855b3c54b64368b6c.svg",
+    "static/media/features-4.svg": "/financial-freedom/static/media/features-4.dd1e43002a0dcca1d90d1db91868a94d.svg",
+    "static/media/features-3.svg": "/financial-freedom/static/media/features-3.3e328edf956ce0c1f98e20129e1f951f.svg",
+    "static/media/features-2.svg": "/financial-freedom/static/media/features-2.9f04636d616e0104c7164deed05c6d28.svg",
+    "index.html": "/financial-freedom/index.html",
+    "static/media/star-half.svg": "/financial-freedom/static/media/star-half.e8b96ae928db92bb27bc6eea73f39043.svg",
+    "static/media/features-1.svg": "/financial-freedom/static/media/features-1.85b94a32ddbbe58b4e8ac3aa31590f5c.svg",
+    "static/media/star-empty.svg": "/financial-freedom/static/media/star-empty.c961d710e6df24230e23e844b9ff8b31.svg",
+    "static/media/star-filled.svg": "/financial-freedom/static/media/star-filled.757e753967a1c63d4cec3f1321900168.svg",
+    "main.d16552b3.css.map": "/financial-freedom/static/css/main.d16552b3.css.map",
+    "main.3d6c8c44.js.map": "/financial-freedom/static/js/main.3d6c8c44.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d16552b3.css",
+    "static/js/main.3d6c8c44.js"
+  ]
+}
