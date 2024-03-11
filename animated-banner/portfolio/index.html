@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Per frank</title>
+	<title>Portfolio</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<script type="text/javascript">var clickTag = "https://www.google.com";</script>
 	<style type="text/css">
@@ -101,6 +101,62 @@
 			}
 		}
 
+		@-webkit-keyframes hvr-pulse-grow {
+			to {
+				-webkit-transform: scale(1.1);
+				transform: scale(1.1);
+			}
+		}
+
+		@keyframes hvr-pulse-grow {
+			to {
+				-webkit-transform: scale(1.1);
+				transform: scale(1.1);
+			}
+		}
+
+		.hvr-pulse-grow {
+			display: inline-block;
+			vertical-align: middle;
+			-webkit-transform: perspective(1px) translateZ(0);
+			transform: perspective(1px) translateZ(0);
+			box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+		}
+
+		.hvr-pulse-grow:hover,
+		.hvr-pulse-grow:focus,
+		.hvr-pulse-grow:active {
+			-webkit-animation-name: hvr-pulse-grow;
+			animation-name: hvr-pulse-grow;
+			-webkit-animation-duration: 0.3s;
+			animation-duration: 0.3s;
+			-webkit-animation-timing-function: linear;
+			animation-timing-function: linear;
+			-webkit-animation-iteration-count: infinite;
+			animation-iteration-count: infinite;
+			-webkit-animation-direction: alternate;
+			animation-direction: alternate;
+		}
+
+		.hvr-grow {
+			display: inline-block;
+			vertical-align: middle;
+			-webkit-transform: perspective(1px) translateZ(0);
+			transform: perspective(1px) translateZ(0);
+			box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+			-webkit-transition-duration: 0.3s;
+			transition-duration: 0.3s;
+			-webkit-transition-property: transform;
+			transition-property: transform;
+		}
+
+		.hvr-grow:hover,
+		.hvr-grow:focus,
+		.hvr-grow:active {
+			-webkit-transform: scale(1.1);
+			transform: scale(1.1);
+		}
+
 		@-webkit-keyframes fade-in-right {
 			0% {
 				-webkit-transform: translateX(50px);
@@ -209,38 +265,6 @@
 			}
 		}
 
-		@-webkit-keyframes custom-pan-in-botton-paolo {
-			0% {
-				-webkit-transform: translateX(0px) translateY(30px) scale(0.9) rotate(0deg);
-				-webkit-transform-origin: center center;
-				-webkit-animation-timing-function: ease-out;
-				opacity: 1;
-			}
-
-			100% {
-				-webkit-transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
-				-webkit-transform-origin: center center;
-				-webkit-animation-timing-function: ease-out;
-				opacity: 1;
-			}
-		}
-
-		@keyframes custom-pan-in-botton-paolo {
-			0% {
-				transform: translateX(0px) translateY(30px) scale(0.9) rotate(0deg);
-				transform-origin: center center;
-				animation-timing-function: ease-out;
-				opacity: 1;
-			}
-
-			100% {
-				transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
-				transform-origin: center center;
-				animation-timing-function: ease-out;
-				opacity: 1;
-			}
-		}
-
 		@-webkit-keyframes fade-in-right {
 			0% {
 				-webkit-transform: translateX(50px);
@@ -346,38 +370,6 @@
 
 			to {
 				opacity: 1
-			}
-		}
-
-		@-webkit-keyframes custom-pan-in-botton-paolo {
-			0% {
-				-webkit-transform: translateX(0px) translateY(30px) scale(0.9) rotate(0deg);
-				-webkit-transform-origin: center center;
-				-webkit-animation-timing-function: ease-out;
-				opacity: 1;
-			}
-
-			100% {
-				-webkit-transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
-				-webkit-transform-origin: center center;
-				-webkit-animation-timing-function: ease-out;
-				opacity: 1;
-			}
-		}
-
-		@keyframes custom-pan-in-botton-paolo {
-			0% {
-				transform: translateX(0px) translateY(30px) scale(0.9) rotate(0deg);
-				transform-origin: center center;
-				animation-timing-function: ease-out;
-				opacity: 1;
-			}
-
-			100% {
-				transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
-				transform-origin: center center;
-				animation-timing-function: ease-out;
-				opacity: 1;
 			}
 		}
 
@@ -410,11 +402,11 @@
 		}
 
 		@media (height:50px) and (width:320px) {
-			#b_466511 {
+			#b_10802545 {
 				display: block !important;
 			}
 
-			#b_466511 {
+			#b_10802545 {
 				background-color: #000000;
 				border: 0;
 				box-sizing: border-box;
@@ -425,17 +417,16 @@
 				position: relative;
 				width: 320px;
 				z-index: 1;
-				border-radius: 8px;
 			}
 
-			#b_466511 div {
+			#b_10802545 div {
 				position: absolute;
 				box-sizing: border-box;
 				padding: 0;
 				margin: 0;
 			}
 
-			#b_466511 img {
+			#b_10802545 img {
 				position: absolute;
 				top: 0;
 				left: 0;
@@ -444,43 +435,77 @@
 				margin: 0;
 			}
 
-			#el_466591 {
+			#el_10802624 {
 				top: 17px;
 				left: 233px;
 				z-index: 5;
-				pointer-events: none;
+				pointer-events: auto;
 				mix-blend-mode: normal;
 			}
 
-			#img_466591 {
+			#img_10802624 {
 				width: 76px;
 				height: 20px;
 			}
 
-			#img_466591.bnfy-enter {
+			#img_10802624.bnfy-enter {
 				-webkit-animation: fade-in-right 1600ms 200ms ease 1 both;
 				animation: fade-in-right 1600ms 200ms ease 1 both;
 			}
 
-			#el_466532 {
+			#hvr_10802624 {
+				display: block;
+				cursor: pointer;
+				width: 76px;
+				height: 20px;
+				-webkit-animation-duration: 1000ms !important;
+				animation-duration: 1000ms !important;
+				-webkit-animation-delay: 0ms !important;
+				animation-delay: 0ms !important;
+				-webkit-animation-iteration-count: infinite !important;
+				animation-iteration-count: infinite !important;
+				-webkit-animation-fill-mode: both;
+				animation-fill-mode: both;
+				-webkit-animation-direction: alternate !important;
+				animation-direction: alternate !important;
+			}
+
+			#el_10802565 {
 				top: 0px;
 				left: 157px;
 				z-index: 4;
-				pointer-events: none;
+				pointer-events: auto;
 				mix-blend-mode: normal;
 			}
 
-			#img_466532 {
+			#img_10802565 {
 				width: 77px;
 				height: 50px;
 			}
 
-			#img_466532.bnfy-enter {
+			#img_10802565.bnfy-enter {
 				-webkit-animation: kenburns-bottom 4300ms 0ms ease 1 both;
 				animation: kenburns-bottom 4300ms 0ms ease 1 both;
 			}
 
-			#el_466531 {
+			#hvr_10802565 {
+				display: block;
+				cursor: pointer;
+				width: 77px;
+				height: 50px;
+				-webkit-animation-duration: 2600ms !important;
+				animation-duration: 2600ms !important;
+				-webkit-animation-delay: 0ms !important;
+				animation-delay: 0ms !important;
+				-webkit-animation-iteration-count: 1 !important;
+				animation-iteration-count: 1 !important;
+				-webkit-animation-fill-mode: both;
+				animation-fill-mode: both;
+				-webkit-animation-direction: normal !important;
+				animation-direction: normal !important;
+			}
+
+			#el_10802564 {
 				top: 35px;
 				left: 229px;
 				z-index: 3;
@@ -488,17 +513,17 @@
 				mix-blend-mode: normal;
 			}
 
-			#img_466531 {
+			#img_10802564 {
 				width: 86px;
 				height: 15px;
 			}
 
-			#img_466531.bnfy-enter {
+			#img_10802564.bnfy-enter {
 				-webkit-animation: fade-in-right 1600ms 300ms ease 1 both;
 				animation: fade-in-right 1600ms 300ms ease 1 both;
 			}
 
-			#el_466513 {
+			#el_10802547 {
 				top: 5px;
 				left: 240px;
 				z-index: 2;
@@ -506,17 +531,17 @@
 				mix-blend-mode: normal;
 			}
 
-			#img_466513 {
+			#img_10802547 {
 				width: 60px;
 				height: 7px;
 			}
 
-			#img_466513.bnfy-enter {
+			#img_10802547.bnfy-enter {
 				-webkit-animation: none 600ms 0ms ease 1 both;
 				animation: none 600ms 0ms ease 1 both;
 			}
 
-			#el_466512 {
+			#el_10802546 {
 				top: 15px;
 				left: 14px;
 				z-index: 1;
@@ -524,17 +549,17 @@
 				mix-blend-mode: normal;
 			}
 
-			#img_466512 {
+			#img_10802546 {
 				width: 150px;
 				height: 25px;
 			}
 
-			#img_466512.bnfy-enter {
+			#img_10802546.bnfy-enter {
 				-webkit-animation: fade-in-left 1600ms 0ms ease 1 both;
 				animation: fade-in-left 1600ms 0ms ease 1 both;
 			}
 
-			#el_466511 {
+			#el_10802545 {
 				top: 0px;
 				left: 0px;
 				z-index: 0;
@@ -542,23 +567,23 @@
 				mix-blend-mode: normal;
 			}
 
-			#img_466511 {
+			#img_10802545 {
 				width: 320px;
 				height: 50px;
 			}
 
-			#img_466511.bnfy-enter {
+			#img_10802545.bnfy-enter {
 				-webkit-animation: undefined 0ms 0ms ease 1 both;
 				animation: undefined 0ms 0ms ease 1 both;
 			}
 		}
 
 		@media (height:300px) and (width:300px) {
-			#b_466416 {
+			#b_10802452 {
 				display: block !important;
 			}
 
-			#b_466416 {
+			#b_10802452 {
 				background-color: #000000;
 				border: 0;
 				box-sizing: border-box;
@@ -569,17 +594,16 @@
 				position: relative;
 				width: 300px;
 				z-index: 1;
-				border-radius: 8px;
 			}
 
-			#b_466416 div {
+			#b_10802452 div {
 				position: absolute;
 				box-sizing: border-box;
 				padding: 0;
 				margin: 0;
 			}
 
-			#b_466416 img {
+			#b_10802452 img {
 				position: absolute;
 				top: 0;
 				left: 0;
@@ -588,25 +612,42 @@
 				margin: 0;
 			}
 
-			#el_466510 {
+			#el_10802544 {
 				top: 142px;
 				left: 22px;
 				z-index: 6;
-				pointer-events: none;
+				pointer-events: auto;
 				mix-blend-mode: normal;
 			}
 
-			#img_466510 {
+			#img_10802544 {
 				width: 117px;
 				height: 34px;
 			}
 
-			#img_466510.bnfy-enter {
+			#img_10802544.bnfy-enter {
 				-webkit-animation: fade-in-left 1000ms 200ms ease 1 both;
 				animation: fade-in-left 1000ms 200ms ease 1 both;
 			}
 
-			#el_466509 {
+			#hvr_10802544 {
+				display: block;
+				cursor: pointer;
+				width: 117px;
+				height: 34px;
+				-webkit-animation-duration: 1000ms !important;
+				animation-duration: 1000ms !important;
+				-webkit-animation-delay: 0ms !important;
+				animation-delay: 0ms !important;
+				-webkit-animation-iteration-count: infinite !important;
+				animation-iteration-count: infinite !important;
+				-webkit-animation-fill-mode: both;
+				animation-fill-mode: both;
+				-webkit-animation-direction: alternate !important;
+				animation-direction: alternate !important;
+			}
+
+			#el_10802543 {
 				top: 63px;
 				left: 22px;
 				z-index: 5;
@@ -614,17 +655,17 @@
 				mix-blend-mode: normal;
 			}
 
-			#img_466509 {
+			#img_10802543 {
 				width: 222px;
 				height: 63px;
 			}
 
-			#img_466509.bnfy-enter {
+			#img_10802543.bnfy-enter {
 				-webkit-animation: fade-in-left 1000ms 0ms ease 1 both;
 				animation: fade-in-left 1000ms 0ms ease 1 both;
 			}
 
-			#el_466506 {
+			#el_10802542 {
 				top: 265px;
 				left: 22px;
 				z-index: 4;
@@ -632,17 +673,17 @@
 				mix-blend-mode: normal;
 			}
 
-			#img_466506 {
+			#img_10802542 {
 				width: 139px;
 				height: 18px;
 			}
 
-			#img_466506.bnfy-enter {
+			#img_10802542.bnfy-enter {
 				-webkit-animation: fade-in 1000ms 200ms ease 1 both;
 				animation: fade-in 1000ms 200ms ease 1 both;
 			}
 
-			#el_466477 {
+			#el_10802513 {
 				top: 27px;
 				left: 22px;
 				z-index: 3;
@@ -650,17 +691,17 @@
 				mix-blend-mode: normal;
 			}
 
-			#img_466477 {
+			#img_10802513 {
 				width: 124px;
 				height: 15px;
 			}
 
-			#img_466477.bnfy-enter {
+			#img_10802513.bnfy-enter {
 				-webkit-animation: none 400ms 0ms ease 1 both;
 				animation: none 400ms 0ms ease 1 both;
 			}
 
-			#el_466418 {
+			#el_10802454 {
 				top: 100px;
 				left: 109px;
 				z-index: 2;
@@ -668,17 +709,17 @@
 				mix-blend-mode: normal;
 			}
 
-			#img_466418 {
+			#img_10802454 {
 				width: 191px;
 				height: 200px;
 			}
 
-			#img_466418.bnfy-enter {
+			#img_10802454.bnfy-enter {
 				-webkit-animation: custom-pan-in-botton-paolo 3300ms 0ms ease 1 both;
 				animation: custom-pan-in-botton-paolo 3300ms 0ms ease 1 both;
 			}
 
-			#el_466417 {
+			#el_10802453 {
 				top: 27px;
 				left: 8px;
 				z-index: 1;
@@ -686,17 +727,17 @@
 				mix-blend-mode: normal;
 			}
 
-			#img_466417 {
+			#img_10802453 {
 				width: 293px;
 				height: 273px;
 			}
 
-			#img_466417.bnfy-enter {
+			#img_10802453.bnfy-enter {
 				-webkit-animation: none 1000ms 0ms ease 1 both;
 				animation: none 1000ms 0ms ease 1 both;
 			}
 
-			#el_466416 {
+			#el_10802452 {
 				top: 0px;
 				left: 0px;
 				z-index: 0;
@@ -704,23 +745,23 @@
 				mix-blend-mode: normal;
 			}
 
-			#img_466416 {
+			#img_10802452 {
 				width: 300px;
 				height: 300px;
 			}
 
-			#img_466416.bnfy-enter {
+			#img_10802452.bnfy-enter {
 				-webkit-animation: undefined 0ms 0ms ease 1 both;
 				animation: undefined 0ms 0ms ease 1 both;
 			}
 		}
 
 		@media (height:600px) and (width:300px) {
-			#b_466319 {
+			#b_10802356 {
 				display: block !important;
 			}
 
-			#b_466319 {
+			#b_10802356 {
 				background-color: #000000;
 				border: 0;
 				box-sizing: border-box;
@@ -731,17 +772,16 @@
 				position: relative;
 				width: 300px;
 				z-index: 1;
-				border-radius: 8px;
 			}
 
-			#b_466319 div {
+			#b_10802356 div {
 				position: absolute;
 				box-sizing: border-box;
 				padding: 0;
 				margin: 0;
 			}
 
-			#b_466319 img {
+			#b_10802356 img {
 				position: absolute;
 				top: 0;
 				left: 0;
@@ -750,7 +790,7 @@
 				margin: 0;
 			}
 
-			#el_466415 {
+			#el_10802451 {
 				top: 267px;
 				left: 81px;
 				z-index: 6;
@@ -758,35 +798,52 @@
 				mix-blend-mode: normal;
 			}
 
-			#img_466415 {
+			#img_10802451 {
 				width: 139px;
 				height: 17px;
 			}
 
-			#img_466415.bnfy-enter {
+			#img_10802451.bnfy-enter {
 				-webkit-animation: fade-in-bottom 900ms 300ms ease 1 both;
 				animation: fade-in-bottom 900ms 300ms ease 1 both;
 			}
 
-			#el_466414 {
+			#el_10802450 {
 				top: 208px;
 				left: 77px;
 				z-index: 5;
-				pointer-events: none;
+				pointer-events: auto;
 				mix-blend-mode: normal;
 			}
 
-			#img_466414 {
+			#img_10802450 {
 				width: 147px;
 				height: 42px;
 			}
 
-			#img_466414.bnfy-enter {
+			#img_10802450.bnfy-enter {
 				-webkit-animation: fade-in-bottom 900ms 200ms ease 1 both;
 				animation: fade-in-bottom 900ms 200ms ease 1 both;
 			}
 
-			#el_466413 {
+			#hvr_10802450 {
+				display: block;
+				cursor: pointer;
+				width: 147px;
+				height: 42px;
+				-webkit-animation-duration: 1000ms !important;
+				animation-duration: 1000ms !important;
+				-webkit-animation-delay: 0ms !important;
+				animation-delay: 0ms !important;
+				-webkit-animation-iteration-count: infinite !important;
+				animation-iteration-count: infinite !important;
+				-webkit-animation-fill-mode: both;
+				animation-fill-mode: both;
+				-webkit-animation-direction: alternate !important;
+				animation-direction: alternate !important;
+			}
+
+			#el_10802449 {
 				top: 81px;
 				left: 58px;
 				z-index: 4;
@@ -794,17 +851,17 @@
 				mix-blend-mode: normal;
 			}
 
-			#img_466413 {
+			#img_10802449 {
 				width: 185px;
 				height: 107px;
 			}
 
-			#img_466413.bnfy-enter {
+			#img_10802449.bnfy-enter {
 				-webkit-animation: fade-in-bottom 900ms 100ms ease 1 both;
 				animation: fade-in-bottom 900ms 100ms ease 1 both;
 			}
 
-			#el_466383 {
+			#el_10802420 {
 				top: 33px;
 				left: 89px;
 				z-index: 3;
@@ -812,17 +869,17 @@
 				mix-blend-mode: normal;
 			}
 
-			#img_466383 {
+			#img_10802420 {
 				width: 124px;
 				height: 16px;
 			}
 
-			#img_466383.bnfy-enter {
+			#img_10802420.bnfy-enter {
 				-webkit-animation: none 1000ms 0ms ease 1 both;
 				animation: none 1000ms 0ms ease 1 both;
 			}
 
-			#el_466321 {
+			#el_10802358 {
 				top: 286px;
 				left: 9px;
 				z-index: 2;
@@ -830,17 +887,17 @@
 				mix-blend-mode: normal;
 			}
 
-			#img_466321 {
+			#img_10802358 {
 				width: 288px;
 				height: 314px;
 			}
 
-			#img_466321.bnfy-enter {
+			#img_10802358.bnfy-enter {
 				-webkit-animation: custom-pan-in-botton-paolo 2700ms 0ms ease 1 both;
 				animation: custom-pan-in-botton-paolo 2700ms 0ms ease 1 both;
 			}
 
-			#el_466320 {
+			#el_10802357 {
 				top: 180px;
 				left: 0px;
 				z-index: 1;
@@ -848,17 +905,17 @@
 				mix-blend-mode: normal;
 			}
 
-			#img_466320 {
+			#img_10802357 {
 				width: 301px;
 				height: 421px;
 			}
 
-			#img_466320.bnfy-enter {
+			#img_10802357.bnfy-enter {
 				-webkit-animation: none 1000ms 0ms ease 1 both;
 				animation: none 1000ms 0ms ease 1 both;
 			}
 
-			#el_466319 {
+			#el_10802356 {
 				top: 0px;
 				left: 0px;
 				z-index: 0;
@@ -866,12 +923,12 @@
 				mix-blend-mode: normal;
 			}
 
-			#img_466319 {
+			#img_10802356 {
 				width: 300px;
 				height: 600px;
 			}
 
-			#img_466319.bnfy-enter {
+			#img_10802356.bnfy-enter {
 				-webkit-animation: undefined 0ms 0ms ease 1 both;
 				animation: undefined 0ms 0ms ease 1 both;
 			}
@@ -881,151 +938,95 @@
 
 <body>
 	<div id="responsiveBanner">
-		<div id="b_466511" style="display:none;">
-			<div style="display:none;width:76px;height:20px;" id="el_466591" class="js-bnfy">
-				<img id="img_466591" class="bnfy-enter" alt="Banner CTA" width="76" height="20"
-					src="images/4ae73d0920aaf77dde906f0d66331712.svg" />
+		<div id="b_10802545" style="display:none;">
+			<div style="display:none;width:76px;height:20px;" id="el_10802624" class="js-bnfy">
+				<div id="hvr_10802624" class="hvr-pulse-grow"><img id="img_10802624" class="bnfy-enter" alt="Banner CTA"
+						width="76" height="20" src="images/0252c72e7b0167969d012278fd023bdb.svg" /></div>
 			</div>
-			<div style="display:none;width:77px;height:50px;" id="el_466532" class="js-bnfy">
-				<img id="img_466532" class="bnfy-enter" alt="Group 1321314834" width="77" height="50"
-					src="images/1a84898f38ed4dd6b6682592159cd1ac.png" />
+			<div style="display:none;width:77px;height:50px;" id="el_10802565" class="js-bnfy">
+				<div id="hvr_10802565" class="hvr-grow"><img id="img_10802565" class="bnfy-enter" alt="Group 1321314834"
+						width="77" height="50" src="images/e8b6537eaa346497ee0f223236933b53.png" /></div>
 			</div>
-			<div style="display:none;width:86px;height:15px;" id="el_466531" class="js-bnfy">
-				<img id="img_466531" class="bnfy-enter" alt="Risk warning" width="86" height="15"
+			<div style="display:none;width:86px;height:15px;" id="el_10802564" class="js-bnfy">
+				<img id="img_10802564" class="bnfy-enter" alt="Risk warning" width="86" height="15"
 					src="images/f865faf0b3793252d816a022894eea94.svg" />
 			</div>
-			<div style="display:none;width:60px;height:7px;" id="el_466513" class="js-bnfy">
-				<img id="img_466513" class="bnfy-enter" alt="logo" width="60" height="7"
+			<div style="display:none;width:60px;height:7px;" id="el_10802547" class="js-bnfy">
+				<img id="img_10802547" class="bnfy-enter" alt="logo" width="60" height="7"
 					src="images/b285868306f89a61d281d91c42d31e1e.svg" />
 			</div>
-			<div style="display:none;width:150px;height:25px;" id="el_466512" class="js-bnfy">
-				<img id="img_466512" class="bnfy-enter" alt="Secure your financial future by trading with PrimeXBT"
+			<div style="display:none;width:150px;height:25px;" id="el_10802546" class="js-bnfy">
+				<img id="img_10802546" class="bnfy-enter" alt="Secure your financial future by trading with PrimeXBT"
 					width="150" height="25" src="images/bc416ac21c3c38945f2b96dbb1371b5c.svg" />
 			</div>
-			<div style="display:none;width:320px;height:50px;" id="el_466511" class="js-bnfy">
-				<img id="img_466511" class="bnfy-enter" alt="320x50 banner" width="320" height="50"
-					src="images/4a68e0278941a454cd745edc6e4ea1e2.svg" />
+			<div style="display:none;width:320px;height:50px;" id="el_10802545" class="js-bnfy">
+				<img id="img_10802545" class="bnfy-enter" alt="320x50 banner" width="320" height="50"
+					src="images/b3524f49f9f52e338a1c7c8a4e811daa.svg" />
 			</div>
 		</div>
-		<div id="b_466416" style="display:none;">
-			<div style="display:none;width:117px;height:34px;" id="el_466510" class="js-bnfy">
-				<img id="img_466510" class="bnfy-enter" alt="Banner CTA" width="117" height="34"
-					src="images/e79b3e76dfd6065955d12e6ba4504d7b.svg" />
+		<div id="b_10802452" style="display:none;">
+			<div style="display:none;width:117px;height:34px;" id="el_10802544" class="js-bnfy">
+				<div id="hvr_10802544" class="hvr-pulse-grow"><img id="img_10802544" class="bnfy-enter" alt="Banner CTA"
+						width="117" height="34" src="images/d4a2e7e2e4ef3afa791df002d2a239a4.svg" /></div>
 			</div>
-			<div style="display:none;width:222px;height:63px;" id="el_466509" class="js-bnfy">
-				<img id="img_466509" class="bnfy-enter" alt="Secure your financial future by trading with PrimeXBT"
+			<div style="display:none;width:222px;height:63px;" id="el_10802543" class="js-bnfy">
+				<img id="img_10802543" class="bnfy-enter" alt="Secure your financial future by trading with PrimeXBT"
 					width="222" height="63" src="images/a655a93459c58891ffb0b6546c3ac6fe.svg" />
 			</div>
-			<div style="display:none;width:139px;height:18px;" id="el_466506" class="js-bnfy">
-				<img id="img_466506" class="bnfy-enter" alt="Risk warning" width="139" height="18"
-					src="images/af99b2af41e792e26443305f754a8dd9.svg" />
+			<div style="display:none;width:139px;height:18px;" id="el_10802542" class="js-bnfy">
+				<img id="img_10802542" class="bnfy-enter" alt="Risk warning" width="139" height="18"
+					src="images/f867a91e508e8a73188654e937801fcb.svg" />
 			</div>
-			<div style="display:none;width:124px;height:15px;" id="el_466477" class="js-bnfy">
-				<img id="img_466477" class="bnfy-enter" alt="Group 105" width="124" height="15"
-					src="images/66d4734f7b7644ae329c3f36a89dfbc2.svg" />
+			<div style="display:none;width:124px;height:15px;" id="el_10802513" class="js-bnfy">
+				<img id="img_10802513" class="bnfy-enter" alt="Group 105" width="124" height="15"
+					src="images/7a3133ca2ea0b66692783f657357b03e.svg" />
 			</div>
-			<div style="display:none;width:191px;height:200px;" id="el_466418" class="js-bnfy">
-				<img id="img_466418" class="bnfy-enter" alt="Group 1321314834" width="191" height="200"
-					src="images/d9a96419c865d5403a84893ae7fa92ce.png" />
+			<div style="display:none;width:191px;height:200px;" id="el_10802454" class="js-bnfy">
+				<img id="img_10802454" class="bnfy-enter" alt="Group 1321314834" width="191" height="200"
+					src="images/01e50f4f47406781a63baad5e3b88037.png" />
 			</div>
-			<div style="display:none;width:293px;height:273px;" id="el_466417" class="js-bnfy">
-				<img id="img_466417" class="bnfy-enter" alt="Ellipse 1173" width="293" height="273"
-					src="images/779de0002c526500c826ab2a3a9dda6a.svg" />
+			<div style="display:none;width:293px;height:273px;" id="el_10802453" class="js-bnfy">
+				<img id="img_10802453" class="bnfy-enter" alt="Ellipse 1173" width="293" height="273"
+					src="images/a890541a5cf81ce87b33a263eeb0d972.svg" />
 			</div>
-			<div style="display:none;width:300px;height:300px;" id="el_466416" class="js-bnfy">
-				<img id="img_466416" class="bnfy-enter" alt="300x250 banner" width="300" height="300"
-					src="images/199c3f391a2aa57c7f4fb82d5070c7ab.svg" />
+			<div style="display:none;width:300px;height:300px;" id="el_10802452" class="js-bnfy">
+				<img id="img_10802452" class="bnfy-enter" alt="300x250 banner" width="300" height="300"
+					src="images/b7081d29bbae49e3e1a6a891277da4ad.svg" />
 			</div>
 		</div>
-		<div id="b_466319" style="display:none;">
-			<div style="display:none;width:139px;height:17px;" id="el_466415" class="js-bnfy">
-				<img id="img_466415" class="bnfy-enter" alt="Risk warning" width="139" height="17"
-					src="images/b4af828e026ad182da580e310961f9ac.svg" />
+		<div id="b_10802356" style="display:none;">
+			<div style="display:none;width:139px;height:17px;" id="el_10802451" class="js-bnfy">
+				<img id="img_10802451" class="bnfy-enter" alt="Risk warning" width="139" height="17"
+					src="images/4c5dfac241ca6542ad1edeb001ebe82e.svg" />
 			</div>
-			<div style="display:none;width:147px;height:42px;" id="el_466414" class="js-bnfy">
-				<img id="img_466414" class="bnfy-enter" alt="Banner CTA" width="147" height="42"
-					src="images/5483407ec9401c24c8ac80c9f7a1c7f1.svg" />
+			<div style="display:none;width:147px;height:42px;" id="el_10802450" class="js-bnfy">
+				<div id="hvr_10802450" class="hvr-pulse-grow"><img id="img_10802450" class="bnfy-enter" alt="Banner CTA"
+						width="147" height="42" src="images/5483407ec9401c24c8ac80c9f7a1c7f1.svg" /></div>
 			</div>
-			<div style="display:none;width:185px;height:107px;" id="el_466413" class="js-bnfy">
-				<img id="img_466413" class="bnfy-enter" alt="Secure your financial future by trading with PrimeXBT"
+			<div style="display:none;width:185px;height:107px;" id="el_10802449" class="js-bnfy">
+				<img id="img_10802449" class="bnfy-enter" alt="Secure your financial future by trading with PrimeXBT"
 					width="185" height="107" src="images/12e66a9435e4e1c76f9c78938e0fef53.svg" />
 			</div>
-			<div style="display:none;width:124px;height:16px;" id="el_466383" class="js-bnfy">
-				<img id="img_466383" class="bnfy-enter" alt="Group 105" width="124" height="16"
-					src="images/537f6052577d216f09db4886b41bc7d8.svg" />
+			<div style="display:none;width:124px;height:16px;" id="el_10802420" class="js-bnfy">
+				<img id="img_10802420" class="bnfy-enter" alt="Group 105" width="124" height="16"
+					src="images/d4c375806e2f5526f8a57baf38f21854.svg" />
 			</div>
-			<div style="display:none;width:288px;height:314px;" id="el_466321" class="js-bnfy">
-				<img id="img_466321" class="bnfy-enter" alt="Group 1321315097" width="288" height="314"
-					src="images/a9a8429672ec868a4ba701136e91eac4.png" />
+			<div style="display:none;width:288px;height:314px;" id="el_10802358" class="js-bnfy">
+				<img id="img_10802358" class="bnfy-enter" alt="Group 1321315097" width="288" height="314"
+					src="images/8e62353f77aac684b85f65efbc712dd7.png" />
 			</div>
-			<div style="display:none;width:300px;height:421px;" id="el_466320" class="js-bnfy">
-				<img id="img_466320" class="bnfy-enter" alt="Ellipse 1173" width="300" height="421"
-					src="images/0c25d2b68815970b508ee4cca1c473c7.svg" />
+			<div style="display:none;width:300px;height:421px;" id="el_10802357" class="js-bnfy">
+				<img id="img_10802357" class="bnfy-enter" alt="Ellipse 1173" width="300" height="421"
+					src="images/62425a7075dff0992323850fceeafe3b.svg" />
 			</div>
-			<div style="display:none;width:300px;height:600px;" id="el_466319" class="js-bnfy">
-				<img id="img_466319" class="bnfy-enter" alt="300x600 banner" width="300" height="600"
-					src="images/1d579bb2efc04b4079e24ed3e48b5209.svg" />
+			<div style="display:none;width:300px;height:600px;" id="el_10802356" class="js-bnfy">
+				<img id="img_10802356" class="bnfy-enter" alt="300x600 banner" width="300" height="600"
+					src="images/eb0effcba353f62775c6cbbd2965989f.svg" />
 			</div>
 		</div>
 	</div>
-	<script type="text/javascript">
-		(function() {
-		  // Function to check if all media are loaded
-		  function checkAllMediaLoaded(parent, callback) {
-			var itemsToLoad = [];
-			itemsToLoad.push(...parent.getElementsByTagName("img"));
-			itemsToLoad.push(...parent.getElementsByTagName("lottie-player"));
-			itemsToLoad.push(...parent.getElementsByTagName("video"));
-			
-			var totalItems = itemsToLoad.length;
-			
-			itemsToLoad.forEach(item => {
-			  let itemType = item.tagName.toLowerCase();
-			  
-			  if (itemType === "lottie-player") {
-				item.addEventListener("ready", () => {
-				  totalItems--;
-				  if (totalItems === 0) callback();
-				});
-			  } else if (itemType === "video") {
-				item.addEventListener('loadeddata', () => {
-				  totalItems--;
-				  if (totalItems === 0) callback();
-				}, false);
-			  } else if (itemType === "img") {
-				if (item.complete) {
-				  totalItems--;
-				} else {
-				  item.addEventListener("load", () => {
-					totalItems--;
-					if (totalItems === 0) callback();
-				  });
-				}
-			  }
-			  
-			  // If all items are already loaded (mostly for images)
-			  if (totalItems === 0) callback();
-			});
-		  }
-		
-		  // Main function execution
-		  checkAllMediaLoaded(document.getElementById("responsiveBanner"), function() {
-			let bannerElements = document.getElementById("responsiveBanner").getElementsByClassName('js-bnfy');
-			Array.from(bannerElements).forEach(element => {
-			  element.style.display = 'block';
-			});
-			
-			// Placeholder functions for future use
-			function setupClickBehaviour() {}
-			setupClickBehaviour();
-		  });
-		  
-		  // Add click event listener to the whole banner
-		  document.getElementById('responsiveBanner').addEventListener('click', function() {
-			window.open(window.clickTag);
-		  });
-		})();
-		</script>
+	<script
+		type="text/javascript">(function () { function onImagesLoaded(container, event) { var preloads = []; preloads.push.apply(preloads, container.getElementsByTagName("img")); preloads.push.apply(preloads, container.getElementsByTagName("lottie-player")); preloads.push.apply(preloads, container.getElementsByTagName("video")); var loaded = preloads.length; for (var i = 0; i < preloads.length; i++) { var tag = preloads[i].tagName.toLowerCase(); if (tag === "lottie-player") { preloads[i].addEventListener("ready", function () { loaded--; if (loaded == 0) { event(); } }); } else if (tag === "video") { preloads[i].addEventListener('loadeddata', function () { loaded--; if (loaded == 0) { event(); } }, false); } else if (tag === "img") { if (preloads[i].complete) { loaded--; } else { preloads[i].addEventListener("load", function () { loaded--; if (loaded == 0) { event(); } }); } if (loaded == 0) { event(); } } } } onImagesLoaded(document.getElementById("responsiveBanner"), function () { var elements = document.getElementById("responsiveBanner").getElementsByClassName('js-bnfy'); for (var i = 0; i < elements.length; i++) { elements[i].style.display = 'block'; } var playCount = 0; var lastPlay = true; function handleExits() { } handleExits(); }); document.getElementById('responsiveBanner').addEventListener('click', function () { window.open(window.clickTag); }); })();</script>
 	<noscript>
 		<style>
 			#responsiveBanner div {
